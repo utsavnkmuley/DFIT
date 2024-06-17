@@ -105,7 +105,7 @@ button{
     margin: 10px 15px;
     background-position: center;
     background-size: cover;
-    transition: transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s, filter 0.5s;
 }
 
 .card1{
@@ -126,6 +126,7 @@ button{
 
 .card:hover{
     transform: translateY(-10px);
+    filter: brightness(2.0);
 }
 
 .card p{
